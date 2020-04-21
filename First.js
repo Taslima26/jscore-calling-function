@@ -6,8 +6,8 @@ function calculateBirthYear(age){
 
 function createGreeting(name, age) {
   const birthYear = calculateBirthYear(age);
-  let msg = `My Name is ${name} and birth year is ${birthYear} You are old Taslima!!!!`;
+  let msg = `My Name is ${name} and birth year is ${birthYear} You are old human!!!!`;
   console.log(msg);
 }
 
-  createGreeting('taslima' ,31);
+  createGreeting('human' ,31);
